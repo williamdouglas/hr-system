@@ -4,7 +4,6 @@ import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import br.com.example.userapi.domain.User;
@@ -12,7 +11,6 @@ import br.com.example.userapi.resources.UserResource;
 import br.com.example.userapi.services.UserService;
 
 @RestController
-@RequestMapping(value = "/api/users")
 public class UserResourceImpl implements UserResource {
 
     @Autowired

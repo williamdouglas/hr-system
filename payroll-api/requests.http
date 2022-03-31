@@ -1,0 +1,9 @@
+GET http://localhost:8100/api/payments/3 HTTP/1.1
+content-type: application/json
+
+{
+    "description": "Pagamento janeiro 2022",
+    "workedHours": 200.0
+}
+
+###
