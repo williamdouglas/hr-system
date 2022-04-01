@@ -1,4 +1,4 @@
-GET http://localhost:8100/api/payments/3 HTTP/1.1
+GET http://localhost:8100/api/payments/1 HTTP/1.1
 content-type: application/json
 
 {
