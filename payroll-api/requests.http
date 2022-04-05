@@ -7,3 +7,11 @@ content-type: application/json
 }
 
 ###
+
+GET http://localhost:8765/payroll-api/api/payments/1 HTTP/1.1
+content-type: application/json
+
+{
+    "description": "Pagamento janeiro 2022",
+    "workedHours": 200.0
+}
